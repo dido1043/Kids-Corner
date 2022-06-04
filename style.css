@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+:root {
+    --primary-color: #50b9e1;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*Navigation*/
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.header p {
+    display: inline-block;
+    font-size: 26px;
+    width: 600px;
+}
+
+.header li :hover {
+    color: #50b9e1;
+}
+
+.header span {
+    color: var(--primary-color);
+}
+
+.header {
+    padding: 0 20px;
+}
+
+nav {
+    display: inline-block;
+}
+
+li {
+    color: black;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav i {
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+
+/*Main*/
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+.main {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 50%), url(/Images/kids_main.jpg);
+    opacity: 4;
+    width: auto;
+    height: auto;
+    width: auto;
+    padding: 200px;
+}
+
+.main h2 {
+    font-family: 'PT Serif' sans-serif;
+    text-shadow: black;
+    font-size: 36px;
+    color: white;
+}
+
+.main a {
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+    border: 2px solid white;
+    margin-left: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+
+.main a:hover {
+    background-color: #50b9e1;
+    border: 2px solid #50b9e1;
+    margin-left: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+
+.text {
+    text-align: center;
+    color: #5a7c8a;
+}
+
+.text2 {
+    text-align: center;
+    background-color: #50b9e1;
+    color: white;
+}
+
+.text2 li p {
+    font-size: 10px;
+}
+
+.text2 li {
+    display: inline-block
+}
+
+.text2 li img {
+    height: 50px;
+    width: 50px;
+}
+
+
+/*----------------------------------*/
+
+.text3 {
+    text-align: center;
+    color: #5a7c8a;
+}
+
+.text3 h3 {
+    text-align: center;
+}
+
+.text3 p {
+    font-size: 10px;
+    padding-bottom: 50px;
+}
+
+.text3 li img {
+    height: 100px;
+    width: 200px;
+}
+
+
+/*Footer*/
+
+.footer {
+    position: flex;
+    margin-bottom: 0px;
+    height: 50px;
+    width: 1300px;
+    background-color: #50b9e1;
+    text-align: center;
+}
+
+
+/*For phone*/
+
+@media (max-width: 400px) {
+    .header {
+        width: 100vw;
+    }
+    p {
+        margin: 0 3rem;
+    }
+    .header p,
+    nav,
+    ul {
+        width: 100%;
+    }
+    .content .text .text2 .text3 {
+        width: 100%;
+    }
+}
+
+
+/*Scrollbar*/
+
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: #8ad6f4;
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+    background: #386070;
+}
